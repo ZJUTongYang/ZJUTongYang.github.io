@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Nov 2024 19:43:48 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Wed, 27 Nov 2024 19:43:48 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;asymptntp&#34;&gt;asympTNTP&lt;/h1&gt;&#xA;&lt;h1 id=&#34;asymptotically-optimal-task-space-non-revisiting-tracking-with-non-redundant-manipulators&#34;&gt;Asymptotically Optimal Task-Space Non-Revisiting Tracking with Non-Redundant Manipulators&lt;/h1&gt;&#xA;&lt;p&gt;This repository contains the supplementary material (code and video) for a submission to IEEE/ASME Transactions on Mechatronics (TMECH) 2024, under review.&lt;/p&gt;&#xA;&lt;h2 id=&#34;video-link&#34;&gt;Video Link&lt;/h2&gt;&#xA;&lt;p&gt;The video is publicly shared. Should increased viewing anonymity be desired, browsing in private mode is recommended.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1dP827b0u_nO6jAy9m6lVl1a-cs_cuObz/view?usp=sharing&#34;&gt;Supplementary Video&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;&#xA;&lt;p&gt;(The code is being improved and updated whilst the manuscript is under review.)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
