@@ -280,9 +280,17 @@
 .about-box{
   margin:10px 0 18px;
   padding:14px 16px;
-  border:1px solid rgba(15,23,42,.10);
+  border:1px solid rgba(15,23,42,.08);
   border-radius:14px;
-  background:linear-gradient(180deg, rgba(29,78,216,.06), rgba(248,250,252,.75));
+  background:linear-gradient(180deg, rgba(29,78,216,.03), rgba(248,250,252,.92));
+}
+
+.soft-box{
+  margin:10px 0 18px;
+  padding:14px 16px;
+  border:1px solid rgba(15,23,42,.08);
+  border-radius:14px;
+  background:linear-gradient(180deg, rgba(29,78,216,.02), rgba(248,250,252,.94));
 }
 
 .about-box h3:first-child{margin-top:0}
@@ -392,4 +400,74 @@
   .card{padding:14px}
   .hero{padding:16px;border-radius:12px}
   .pdf-embed iframe{height:clamp(360px,60vh,560px)}
+}
+
+/* Print / Save as PDF */
+@media print {
+  /* Keep the same layout as screen */
+  .home-wrap{
+    max-width:none;
+    margin:0 auto;
+    padding:0;
+  }
+
+  /* Make long strings wrap instead of clipping */
+  .home-wrap,
+  .home-wrap *{
+    overflow-wrap:anywhere;
+    word-break:break-word;
+    hyphens:auto;
+  }
+
+  .hero{
+    display:grid;
+    /* Allow columns to shrink on paper to avoid horizontal clipping */
+    grid-template-columns:minmax(0,1fr) minmax(0,320px);
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Printing + CSS grid fragmentation is unreliable in Chromium.
+     Use block flow so content can start on the same page after hero. */
+  .grid{
+    display:block;
+    margin-top:20px;
+  }
+
+  .grid:after{
+    content:"";
+    display:block;
+    clear:both;
+  }
+
+  .grid > aside.card.toc{
+    float:left;
+    width:240px;
+    margin-right:20px;
+  }
+
+  .grid > .card.section{
+    margin-left:260px;
+  }
+
+  /* Sticky doesn't make sense on paper */
+  .toc{position:static; top:auto;}
+
+  /* Slightly tighten spacing for paper */
+  .card{padding:14px;}
+  .hero{padding:18px;}
+  .section h2{margin:18px 0 6px;}
+  .section h3{margin:14px 0 6px;}
+
+  /* Avoid splitting key blocks across pages */
+  .timeline-item, .about-box, .toc{
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Allow the main content card to flow across pages */
+  .grid > .card.section{
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+  }
 }

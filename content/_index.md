@@ -56,12 +56,10 @@ type: "page"
 </ul>
 </aside>
 
-<main class="card section">
+<div class="card section">
 <h2 id="about">About Me</h2>
 
 <div class="about-box" aria-label="About Me details">
-
-<h3 id="summary">Summary</h3>
 <ul class="about-summary">
 <li><strong>Now</strong>: Engineer at Zhipu AI; Postdoctoral Researcher at Tsinghua University</li>
 <li><strong>Robotics</strong> (2014–present, 10+ years): Hands-on robotics experience spanning research and deployment, with a focus on geometric motion planning for complex systems (manipulators, tethered robots, deformable objects). To solve real-world tasks, I flexibly combine learning-based and non-learning-based methods (e.g., optimisation, geometry, and planning) rather than relying on a single paradigm.</li>
@@ -72,13 +70,16 @@ type: "page"
 </div>
 
 <h2 id="employment">Employment</h2>
+<div class="soft-box" aria-label="Employment details">
 <p><strong>Zhipu AI (Z.ai)</strong> — Project Lead (Jul. 2024 – present)</p>
 <ul>
 <li>Location: Beijing, China.</li>
 <li>Leading robotics R&D at Zhipu AI, working on embodied AI systems and real-world deployment. Details are confidential.</li>
 </ul>
+</div>
 
 <h2 id="education">Education</h2>
+<div class="soft-box" aria-label="Education details">
 <div class="timeline" aria-label="Education timeline">
 <div class="timeline-item">
 <div class="timeline-meta">Dec. 2024 – present</div>
@@ -131,8 +132,10 @@ type: "page"
 </ul>
 </div>
 </div>
+</div>
 
 <h2 id="pubs">Publications</h2>
+<div class="soft-box" aria-label="Publications list">
 
 <h3>First Author / Corresponding Author Publications</h3>
 <ul>
@@ -161,15 +164,19 @@ type: "page"
 <li>Jiaheng Zhao, Tiancheng Li, <strong>Tong Yang</strong>, Liang Zhao, Shoudong Huang. “2D Laser SLAM with Closed Shape Features: Fourier Series Parameterization and Submap Joining.” <em>IEEE Robotics and Automation Letters (RA‑L)</em>, 2021.</li>
 <li>Jingke Wang, <strong>Tong Yang</strong>, Li Tang, Yue Wang, Rong Xiong. “Learning an Efficient and Safe Policy for Highway Driving Using Supervised Learning and Reinforcement Learning.” <em>IEEE International Conference on Real‑time Computing and Robotics (RCAR)</em>, 2019.</li>
 </ul>
+</div>
 
 <h2 id="opensource">Open‑source</h2>
+<div class="soft-box" aria-label="Open-source projects">
 <ul>
 <li><a href="https://github.com/ZJUTongYang/raystar">Ray*</a> — ROS global path planner for 2D k‑shortest non‑homotopic path planning.</li>
 <li><a href="https://github.com/ZJUTongYang/nuc_ros">nuc_ros</a> — ROS coverage planner for uniform surface coverage on triangle meshes.</li>
 <li><a href="https://github.com/ZJUTongYang/benchmarking_3dcpp">A platform</a> — ROS2 benchmarking platform for 3D coverage planning algorithms.</li>
 </ul>
+</div>
 
 <h2 id="skills">Skills</h2>
+<div class="soft-box" aria-label="Skills">
 <ul>
 <li><strong>C/C++ / ROS / ROS2</strong>: primary stack; performance-oriented implementation for robotics systems.</li>
 <li><strong>Python / PyTorch</strong>: proficient for rapid prototyping and learning-based pipelines; prefer C/C++ when performance is critical.</li>
@@ -178,8 +185,10 @@ type: "page"
 <li><strong>Used robots</strong>: UR5, UR10, Franka, Xarm7, Leap Hand, Allegro Hand; Robotiq gripper, DH gripper, ChangingTEK gripper.</li>
 <li><strong>Languages</strong>: Chinese (native), English (B2), LaTeX, and mathematical writing (ε–δ).</li>
 </ul>
+</div>
 
 <h2 id="service">Service</h2>
+<div class="soft-box" aria-label="Service">
 <ul>
 <li><strong>Anonymous Reviewer</strong> (since 2020): AIM, CASE, ICRA, IROS, NeurIPS, ICLR, RA-L, T-ASE, T-Mech, T-RO.</li>
 <li><strong>Referee-in-Chief</strong>: The 5th “Zhongkong” Robot Competition of Zhejiang Province (Hangzhou, China), Jun. 2022 – Aug. 2022.</li>
@@ -187,8 +196,10 @@ type: "page"
 <li><strong>Organizer & Referee-in-Chief</strong>: The 15th “Zhongkong” Robot Competition of Zhejiang University (Hangzhou, China), Sep. 2020 – Jun. 2021.</li>
 <li><strong>Teaching Assistant</strong>: “Wheeled Robots and their Practice”, Zhejiang University (Hangzhou, China), Sep. 2018 – Jun. 2019.</li>
 </ul>
+</div>
 
 <h2 id="honors">Honors & Awards</h2>
+<div class="soft-box" aria-label="Honors and awards">
 <ul>
 <li>2025 — Best Poster Finalist, 5th IROS Workshop on Robotic Manipulation of Deformable Objects (ROMADO), Hangzhou, China.</li>
 <li>2024 — Outstanding Doctoral Graduates, Zhejiang University, Hangzhou, China.</li>
@@ -199,7 +210,8 @@ type: "page"
 <li>2017 — 3rd Prize, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
 <li>2017 — Champion, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
 </ul>
-</main>
+</div>
+</div>
 </section>
 </div>
 
