@@ -293,6 +293,11 @@
   background:linear-gradient(180deg, rgba(29,78,216,.02), rgba(248,250,252,.94));
 }
 
+.visitor-map__embed{
+  margin-top:6px;
+  min-height: 120px;
+}
+
 .about-box h3:first-child{margin-top:0}
 .about-box ul:last-child{margin-bottom:0}
 
@@ -469,5 +474,10 @@
   .grid > .card.section{
     break-inside: auto !important;
     page-break-inside: auto !important;
+  }
+
+  #visitors,
+  .visitor-map{
+    display:none !important;
   }
 }

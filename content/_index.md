@@ -62,9 +62,9 @@ type: "page"
 <div class="about-box" aria-label="About Me details">
 <ul class="about-summary">
 <li><strong>Now</strong>: Engineer at Zhipu AI; Postdoctoral Researcher at Tsinghua University</li>
-<li><strong>Robotics</strong> (2014–present, 10+ years): Hands-on robotics experience spanning research and deployment, with a focus on geometric motion planning for complex systems (manipulators, tethered robots, deformable objects). To solve real-world tasks, I flexibly combine learning-based and non-learning-based methods (e.g., optimisation, geometry, and planning) rather than relying on a single paradigm.</li>
-<li><strong>Mathematics</strong>: Four years (2018–2022) of systematic training in differential geometry, algebraic topology, real analysis, PDEs, stochastic analysis, and representation theory. Regular attendee of seminars on differential geometry and bundle algebra.</li>
-<li><strong>Knowledge Engineering</strong>: Since 2025, exploring vision–language–action (VLA) models for robot manipulation, including manipulation under partial perception.</li>
+<li><strong>Robotics</strong>: Hands-on robotics experience spanning research and deployment, with a focus on geometric motion planning for complex systems (manipulators, tethered robots, deformable objects). To solve real-world tasks, I flexibly combine learning-based and non-learning-based methods (e.g., optimisation, geometry, and planning) rather than relying on a single paradigm.</li>
+<li><strong>Mathematics</strong>: Systematic training in differential geometry, algebraic topology, real analysis, PDEs, stochastic analysis, and representation theory. Regular attendee of seminars on differential geometry and bundle algebra.</li>
+<li><strong>Knowledge Engineering</strong>: Exploring vision–language–action (VLA) models for robot manipulation, including manipulation under partial perception.</li>
 </ul>
 
 </div>
@@ -95,10 +95,9 @@ type: "page"
 <p><strong>Zhejiang University, Robotics Laboratory</strong> — Ph.D. in Control Science and Engineering</p>
 <ul>
 <li>Advisor: Prof. Rong Xiong.</li>
-<li>Thesis: “Research on Manipulator Optimal Coverage Planning Problems”.</li>
 <li>Mathematics training (Department of Mathematics): differential geometry, algebraic topology, real analysis, PDEs, stochastic analysis, and representation theory.</li>
 <li>Advanced weekly seminars: differential geometry (Prof. Hongwei Xu, Prof. Entao Zhao) and bundle algebra (Prof. Fang Li).</li>
-<li>Robotics research: planning and deployment for unmanned ground vehicles; later publications on tethered mobile robots.</li>
+<li>Robotics research: planning and deployment for unmanned ground vehicles; later publications on tethered robots.</li>
 </ul>
 </div>
 
@@ -126,7 +125,6 @@ type: "page"
 <p><strong>Bachelor of Engineering, Zhejiang University</strong></p>
 <ul>
 <li>Advisor: Prof. Rong Xiong.</li>
-<li>Thesis: “Path Planning and Trajectory Generation of Car-like Robots”.</li>
 <li>ZJUNlict Robot Soccer Team: led the electronics group (PCBs, FPGA motor drivers, high-voltage shooter); Iran Open champion and 3rd prize at the 2017 World Cup event.</li>
 <li>Designed and built a VTOL fixed-wing UAV with full automation (vertical takeoff, horizontal flight, vertical landing) under the supervision of A/Prof. Yu Zhang.</li>
 </ul>
@@ -210,6 +208,11 @@ type: "page"
 <li>2017 — 3rd Prize, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
 <li>2017 — Champion, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
 </ul>
+</div>
+
+<h2 id="visitors">Visitor Map</h2>
+<div class="soft-box" aria-label="Visitor map">
+	{{< visitor_map provider="mapmyvisitors" id="T6xru0kc2HZAGneO7p6RZp2O9dekIZ4ahdo94Z047LY" >}}
 </div>
 </div>
 </section>
