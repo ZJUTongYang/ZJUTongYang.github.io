@@ -1,0 +1,6 @@
+{{- $path := .Get 0 -}}
+{{- with .Page.Site.GetPage $path -}}
+{{- .Content -}}
+{{- else -}}
+<p><em>Included page not found: {{ $path }}</em></p>
+{{- end -}}

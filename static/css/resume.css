@@ -1,0 +1,3 @@
+/* Fallback CSS in case layout inlines limited styles. Kept minimal; main styles are inlined for reliability. */
+body{font-family: Inter, -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,"Helvetica Neue",Arial}
+.resume-wrap{background:#fff}
