@@ -1,0 +1,26 @@
+{{- /* Primary Meta Tags */ -}}
+<meta name="title" content="{{ with .Title }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}" />
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}" />
+
+{{- /* Open Graph / Facebook */ -}}
+{{- $socialTitle := .Params.social_title | default .Title | default .Site.Title -}}
+{{- $socialDesc := .Params.social_description | default .Description | default .Site.Params.description -}}
+{{- $socialImage := .Params.social_image | default "images/share.png" -}}
+{{- $siteName := .Site.Title -}}
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $socialTitle }}" />
+<meta property="og:description" content="{{ $socialDesc }}" />
+<meta property="og:image" content="{{ $socialImage | absURL }}" />
+<meta property="og:site_name" content="{{ $siteName }}" />
+
+{{- /* Twitter Card */ -}}
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+<meta name="twitter:title" content="{{ $socialTitle }}" />
+<meta name="twitter:description" content="{{ $socialDesc }}" />
+<meta name="twitter:image" content="{{ $socialImage | absURL }}" />
+
+{{- /* Microdata (Schema.org) */ -}}
+{{ template "_internal/schema.html" . }}

@@ -1,8 +1,20 @@
 ---
-title: "Curriculum Vitae"
-date: 2026-02-01
+title: "Hi, this is Tong Yang"
+date: 2026-02-11
 draft: false
 type: "page"
+
+# Social media metadata (separate from page title)
+description: "Ph.D. in Robotics specializing in embodied intelligence, geometric motion planning, and vision-language-action models for robot manipulation."
+
+# Social title (for link previews - professional version)
+social_title: "Tong Yang - Robotics Researcher"
+
+# Social description (for link previews)
+social_description: "Ph.D. in Robotics | Embodied Intelligence & Geometric Motion Planning | Postdoctoral Researcher at Tsinghua University | Exploring VLA models for robot manipulation"
+
+# Social preview image
+social_image: "images/share.png"
 ---
 <div class="home-wrap">
 <section class="hero">
