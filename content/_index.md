@@ -168,11 +168,11 @@ social_image: "images/share.png"
 <li>Jiangpin Liu, <strong>Tong Yang</strong>, Wangtao Lu, Yue Wang, Rong Xiong. “Online Trajectory Deformation and Tracking for Self‑Entanglement‑Free Differential‑Driven Robots.” <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2024.</li>
 <li>Li Huang, <strong>Tong Yang</strong>, Rongxin Jiang, Xiang Tian, Fan Zhou, Yaowu Chen. “Deforming Garment Classification with Shallow Temporal Extraction and Tree‑based Fusion.” <em>IEEE Robotics and Automation Letters (RA‑L)</em>, 2023.</li>
 <li>Liang Xie, Hongxiang Yu, Kechun Xu, <strong>Tong Yang</strong>, Minhang Wang, Haojian Lu, Rong Xiong, Yue Wang. “Learning a Simulation‑based Visual Policy for Real‑world Peg in Unseen Holes.” <em>Review of Scientific Instruments</em>, 2023.</li>
-<li>Li Huang, <strong>Tong Yang</strong>, Yu Zhang, Rongxin Jiang, Xiang Tian, Yaowu Chen. “Continuous Perception Garment Classification based on Optical Flow Variation.” <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2022.</li>
+<li>Li Huang, <strong>Tong Yang</strong>, Yu Zhang, Rongxin Jiang, Xiang Tian, Yaowu Chen. “Continuous Perception Garment Classification based on Optical Flow Variation" <em>IEEE International Conference on Robotics and Biomimetics (ROBIO)</em>, 2022 <strong>(T. J. Tarn Best Paper Finalist)</strong>.</li>
 <li>Fuzhang Han, Qunkang Zhang, Bo Fu, <strong>Tong Yang</strong>, Yue Wang, Rong Xiong. “Multi‑constraint Spatial and Temporal Calibration of Rotating Line Structured Light Vision Sensor.” <em>IEEE Transactions on Instrumentation and Measurement (T‑IM)</em>, 2021.</li>
 <li>Xiaqing Ding, Fuzhang Han, <strong>Tong Yang</strong>, Yue Wang, Rong Xiong. “Degeneration‑aware Localization with Arbitrary Global‑Local Sensor Fusion.” <em>Sensors</em>, 2021.</li>
 <li>Jiaheng Zhao, Tiancheng Li, <strong>Tong Yang</strong>, Liang Zhao, Shoudong Huang. “2D Laser SLAM with Closed Shape Features: Fourier Series Parameterization and Submap Joining.” <em>IEEE Robotics and Automation Letters (RA‑L)</em>, 2021.</li>
-<li>Jingke Wang, <strong>Tong Yang</strong>, Li Tang, Yue Wang, Rong Xiong. “Learning an Efficient and Safe Policy for Highway Driving Using Supervised Learning and Reinforcement Learning.” <em>IEEE International Conference on Real‑time Computing and Robotics (RCAR)</em>, 2019.</li>
+<li>Jingke Wang, <strong>Tong Yang</strong>, Li Tang, Yue Wang, Rong Xiong. “Learning an Efficient and Safe Policy for Highway Driving Using Supervised Learning and Reinforcement Learning" <em>IEEE International Conference on Real‑time Computing and Robotics (RCAR)</em>, 2019 <strong>(Best Paper Finalist)</strong>.</li>
 </ul>
 </div>
 
@@ -190,6 +190,7 @@ social_image: "images/share.png"
 <ul>
 <li><strong>C/C++ / ROS / ROS2</strong>: primary stack; performance-oriented implementation for robotics systems.</li>
 <li><strong>Python / PyTorch</strong>: proficient for rapid prototyping and learning-based pipelines; prefer C/C++ when performance is critical.</li>
+<li><strong>Megatron</strong>: experience with large-scale distributed training framework for transformer models.</li>
 <li><strong>MATLAB</strong>: extensive use for simulated manipulator experiments.</li>
 <li><strong>Hardware & tools</strong>: SolidWorks, Altium Designer, Verilog, STM32, Raspberry Pi.</li>
 <li><strong>Used robots</strong>: UR5, UR10, Franka, Xarm7, Leap Hand, Allegro Hand; Robotiq gripper, DH gripper, ChangingTEK gripper.</li>
@@ -200,7 +201,7 @@ social_image: "images/share.png"
 <h2 id="service">Service</h2>
 <div class="soft-box" aria-label="Service">
 <ul>
-<li><strong>Anonymous Reviewer</strong> (since 2020): AIM, CASE, ICRA, IROS, NeurIPS, ICLR, RA-L, T-ASE, T-Mech, T-RO.</li>
+<li><strong>Anonymous Reviewer</strong> (since 2020): AIM, CASE, ICRA, IROS, NeurIPS, ICLR, RA-L, AURO, T-ASE, T-Mech, T-RO.</li>
 <li><strong>Referee-in-Chief</strong>: The 5th “Zhongkong” Robot Competition of Zhejiang Province (Hangzhou, China), Jun. 2022 – Aug. 2022.</li>
 <li><strong>Organizer & Referee-in-Chief</strong>: The 16th “Zhongkong” Robot Competition of Zhejiang University (Hangzhou, China), Sep. 2021 – Jun. 2022.</li>
 <li><strong>Organizer & Referee-in-Chief</strong>: The 15th “Zhongkong” Robot Competition of Zhejiang University (Hangzhou, China), Sep. 2020 – Jun. 2021.</li>
