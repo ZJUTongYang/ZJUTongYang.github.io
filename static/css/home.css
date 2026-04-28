@@ -407,77 +407,331 @@
   .pdf-embed iframe{height:clamp(360px,60vh,560px)}
 }
 
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1020;
+    --card: #0f172a;
+    --ink: #e5e7eb;
+    --muted: #a8b3cf;
+    --border: rgba(148, 163, 184, 0.25);
+    --accent: #93c5fd;
+  }
+
+  .card,
+  .hero {
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.25);
+  }
+
+  .cv-badge {
+    color: rgba(229, 231, 235, 0.78);
+    background: rgba(229, 231, 235, 0.06);
+    border-color: rgba(229, 231, 235, 0.15);
+  }
+
+  .hero-links a {
+    border-bottom-color: rgba(168, 179, 207, 0.35);
+  }
+  .hero-links a:hover {
+    border-bottom-color: rgba(147, 197, 253, 0.45);
+  }
+
+  .btn {
+    background: var(--card);
+    border-color: var(--border);
+    color: var(--ink);
+  }
+
+  .chips li {
+    background: rgba(229, 231, 235, 0.06);
+    border-color: rgba(229, 231, 235, 0.12);
+    color: var(--ink);
+  }
+
+  .past-emails {
+    border-top-color: rgba(229, 231, 235, 0.16);
+  }
+
+  .about-box {
+    border-color: rgba(148, 163, 184, 0.15);
+    background: linear-gradient(180deg, rgba(147, 197, 253, 0.06), rgba(15, 23, 42, 0.92));
+  }
+
+  .soft-box {
+    border-color: rgba(148, 163, 184, 0.12);
+    background: linear-gradient(180deg, rgba(147, 197, 253, 0.04), rgba(15, 23, 42, 0.94));
+  }
+
+  .about-summary li {
+    color: rgba(229, 231, 235, 0.86);
+  }
+
+  .about-summary li:before {
+    background: rgba(147, 197, 253, 0.45);
+  }
+
+  .timeline:before {
+    background: rgba(148, 163, 184, 0.20);
+  }
+
+  .timeline-item:before {
+    background: var(--card);
+    border-color: rgba(147, 197, 253, 0.55);
+    box-shadow: 0 6px 14px rgba(147, 197, 253, 0.12);
+  }
+
+  .tagline-badge {
+    color: rgba(229, 231, 235, 0.78);
+  }
+}
+
 /* Print / Save as PDF */
 @media print {
-  /* Keep the same layout as screen */
-  .home-wrap{
-    max-width:none;
-    margin:0 auto;
-    padding:0;
+  :root {
+    --bg: #fff;
+    --card: #fff;
+    --ink: #000;
+    --muted: #555;
+    --border: #ccc;
+    --accent: #1d4ed8;
   }
 
-  /* Make long strings wrap instead of clipping */
+  .home-wrap {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
   .home-wrap,
-  .home-wrap *{
-    overflow-wrap:anywhere;
-    word-break:break-word;
-    hyphens:auto;
+  .home-wrap * {
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
-  .hero{
-    display:grid;
-    /* Allow columns to shrink on paper to avoid horizontal clipping */
-    grid-template-columns:minmax(0,1fr) minmax(0,320px);
+  body {
+    font-size: 10.5pt;
+    line-height: 1.45;
+  }
+
+  .card {
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .hero {
+    display: block;
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #ccc;
+    break-after: auto;
+    page-break-after: auto;
     break-inside: avoid;
     page-break-inside: avoid;
   }
 
-  /* Printing + CSS grid fragmentation is unreliable in Chromium.
-     Use block flow so content can start on the same page after hero. */
-  .grid{
-    display:block;
-    margin-top:20px;
+  .hero > :first-child,
+  .hero > div:first-child {
+    margin-bottom: 4px;
   }
 
-  .grid:after{
-    content:"";
-    display:block;
-    clear:both;
+  .hero > :last-child {
+    margin-top: 4px;
   }
 
-  .grid > aside.card.toc{
-    float:left;
-    width:240px;
-    margin-right:20px;
+  .hero-title {
+    font-size: 22pt;
   }
 
-  .grid > .card.section{
-    margin-left:260px;
+  .hero-title__prefix {
+    font-size: .72em;
   }
 
-  /* Sticky doesn't make sense on paper */
-  .toc{position:static; top:auto;}
-
-  /* Slightly tighten spacing for paper */
-  .card{padding:14px;}
-  .hero{padding:18px;}
-  .section h2{margin:18px 0 6px;}
-  .section h3{margin:14px 0 6px;}
-
-  /* Avoid splitting key blocks across pages */
-  .timeline-item, .about-box, .toc{
-    break-inside: avoid;
-    page-break-inside: avoid;
+  .cv-badge {
+    color: rgba(0,0,0,.7);
+    background: none;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 8pt;
   }
 
-  /* Allow the main content card to flow across pages */
-  .grid > .card.section{
+  .hero-links {
+    margin-top: 4px;
+  }
+
+  .hero-links a {
+    color: var(--ink);
+    border-bottom: none;
+    font-size: 9pt;
+  }
+
+  .hero-links a::after {
+    content: none;
+  }
+
+  .tagline-text {
+    margin: 2px 0;
+    font-size: 9pt;
+  }
+
+  .chips {
+    margin: 4px 0;
+  }
+
+  .chips li {
+    font-size: 8pt;
+    padding: 2px 8px;
+    background: none;
+    border: 1px solid rgba(0,0,0,.15);
+  }
+
+  .grid {
+    display: block;
+    margin-top: 0;
+  }
+
+  .grid:after {
+    content: none;
+  }
+
+  .grid > aside.card.toc {
+    float: none;
+    width: auto;
+    margin: 0 0 8px;
+    padding: 0 0 6px;
+    border-bottom: 1px solid #ccc;
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .toc h3 {
+    font-size: 9pt;
+    margin: 0 0 2px;
+  }
+
+  .toc ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .toc li {
+    margin: 0;
+    font-size: 8.5pt;
+  }
+
+  .toc a {
+    color: var(--ink);
+  }
+
+  .grid > .card.section {
+    margin-left: 0;
+    padding: 0;
     break-inside: auto !important;
     page-break-inside: auto !important;
   }
 
+  .section h2 {
+    font-size: 12pt;
+    margin: 12px 0 4px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #ddd;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .section h3 {
+    font-size: 10pt;
+    margin: 8px 0 3px;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .about-box {
+    border-radius: 0;
+    border: none;
+    background: none;
+    padding: 4px 0;
+    margin: 4px 0 8px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .about-summary {
+    margin: 2px 0 4px;
+  }
+
+  .about-summary li {
+    color: rgba(0,0,0,.85);
+    font-size: 9.5pt;
+  }
+
+  .about-summary li:before {
+    background: rgba(29,78,216,.4);
+  }
+
+  .soft-box {
+    border-radius: 0;
+    border: none;
+    background: none;
+    padding: 2px 0;
+    margin: 4px 0 8px;
+  }
+
+  .section p,
+  .section li {
+    font-size: 9.5pt;
+    margin: 2px 0;
+  }
+
+  .section ul {
+    margin: 2px 0 6px;
+  }
+
+  .timeline {
+    padding-left: 18px;
+    margin: 4px 0 8px;
+  }
+
+  .timeline:before {
+    left: 5px;
+  }
+
+  .timeline-item {
+    margin: 0 0 8px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .timeline-item:before {
+    left: -16px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    border: 2px solid rgba(29,78,216,.5);
+    box-shadow: none;
+  }
+
+  .timeline-meta {
+    font-size: 8pt;
+    margin: 0 0 2px;
+  }
+
+  .timeline-item p {
+    margin: 0 0 2px;
+  }
+
+  .timeline-item ul {
+    margin: 0 0 2px;
+  }
+
   #visitors,
-  .visitor-map{
-    display:none !important;
+  #visitors + .soft-box,
+  .visitor-map {
+    display: none !important;
   }
 }
