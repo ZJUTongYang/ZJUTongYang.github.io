@@ -162,6 +162,7 @@ social_image: "images/share.png"
 
 <h3>Co‑Authored Publications</h3>
 <ul>
+<li>Jincheng Wang, Lingfan Bao, <strong>Tong Yang</strong>, Diego Martinez Plasencia, Jianhao Jiao, Dimitrios Kanoulas. “SanD-Planner: Sample-Efficient Diffusion Planner in B-Spline Space for Robust Local Navigation.” <em>Robotics: Science and Systems (RSS)</em>, 2026.</li>
 <li>Maider Larrazabal, <strong>Tong Yang</strong>, Izaro Goienetxea, Jaime Valls Miro. “Multi‑Depth Uniform Coverage Path Planning for Unmanned Surface Vehicle Surveying.” <em>IEEE International Conference on Robotics and Automation (ICRA)</em>, 2026.</li>
 <li>Li Huang, <strong>Tong Yang</strong>, Xiang Tian, Rongxin Jiang, Yaowu Chen. “DLODepth: Real‑time Depth Recovery for 3D Reflective Deformable Linear Object.” <em>IEEE Robotics and Automation Letters (RA‑L)</em>, 2026.</li>
 <li>Shenhan Jia, <strong>Tong Yang</strong>, Zhuqing Zhang, Rong Xiong, Yue Wang, Haojian Lu. “Observability‑based Consistent Visual‑inertial‑ranging Odometry with UWB Network Online Initialization.” <em>Robotic Intelligence and Automation</em>, 2025.</li>
