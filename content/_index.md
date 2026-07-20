@@ -189,14 +189,15 @@ social_image: "images/share.png"
 <h2 id="honors">Honors & Awards</h2>
 <div class="soft-box" aria-label="Honors and awards">
 <ul>
-<li>2025 — Best Poster Finalist, 5th IROS Workshop on Robotic Manipulation of Deformable Objects (ROMADO), Hangzhou, China.</li>
-<li>2024 — Outstanding Doctoral Graduates, Zhejiang University, Hangzhou, China.</li>
-<li>2023 — Best Poster Finalist, 5th UK Manipulation Workshop, Oxford, UK.</li>
-<li>2020–2022 — Outstanding Graduate Scholarship, Zhejiang University, Hangzhou, China.</li>
-<li>2018 — Academic Scholarship (Doctoral Level), Zhejiang University, Hangzhou, China.</li>
-<li>2017 — Best Design Award, International Competition of IDC Robocon, Hangzhou, China.</li>
-<li>2017 — 3rd Prize, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
-<li>2017 — Champion, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
+<li>2026 — <strong>Champion</strong>, the 1st Simulation-driven Competition on Deformable Object Manipulation (LeHome), Vienna, Austria. (Team Name: sZs)</li>
+<li>2025 — <strong>Best Poster Finalist</strong>, the 5th IROS Workshop on Robotic Manipulation of Deformable Objects (ROMADO), Hangzhou, China.</li>
+<li>2024 — <strong>Outstanding Doctoral Graduates</strong>, Zhejiang University, Hangzhou, China.</li>
+<li>2023 — <strong>Best Poster Finalist</strong>, the 5th UK Manipulation Workshop, Oxford, UK.</li>
+<li>2020–2022 — <strong>Outstanding Graduate Scholarship</strong>, Zhejiang University, Hangzhou, China.</li>
+<li>2018 — <strong>Academic Scholarship</strong> (Doctoral Level), Zhejiang University, Hangzhou, China.</li>
+<li>2017 — <strong>Best Design Award</strong>, International Competition of IDC Robocon, Hangzhou, China.</li>
+<li>2017 — <strong>3rd Prize</strong>, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
+<li>2017 — <strong>Champion</strong>, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
 </ul>
 </div>
 
