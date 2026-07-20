@@ -61,10 +61,10 @@ social_image: "images/share.png"
 <li><a href="#employment">Employment</a></li>
 <li><a href="#education">Education</a></li>
 <li><a href="#pubs">Publications</a></li>
-<li><a href="#opensource">Open‑source</a></li>
+<li><a href="#honors">Honors & Awards</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#service">Service</a></li>
-<li><a href="#honors">Honors & Awards</a></li>
+<li><a href="#opensource">Open‑source</a></li>
 </ul>
 </aside>
 
@@ -175,14 +175,28 @@ social_image: "images/share.png"
 <li>Jiaheng Zhao, Tiancheng Li, <strong>Tong Yang</strong>, Liang Zhao, Shoudong Huang. “2D Laser SLAM with Closed Shape Features: Fourier Series Parameterization and Submap Joining.” <em>IEEE Robotics and Automation Letters (RA‑L)</em>, 2021.</li>
 <li>Jingke Wang, <strong>Tong Yang</strong>, Li Tang, Yue Wang, Rong Xiong. “Learning an Efficient and Safe Policy for Highway Driving Using Supervised Learning and Reinforcement Learning" <em>IEEE International Conference on Real‑time Computing and Robotics (RCAR)</em>, 2019 <strong>(Best Paper Finalist)</strong>.</li>
 </ul>
+
+<h3>ArXived Publications</h3>
+<ul>
+<li>Haoyang Li, Guanlin Li, Youhe Feng, Chen Zhao, Zhuoran Wang, Yang Li, Qizhe Wei, Shifeng Bao, Haitao Shen, Yihan Zhao, <strong>Tong Yang</strong>, Jing Zhang. “Training Vision-Language-Action Models with Dense Embodied Chain-of-Thought Supervision”, <em>arxiv:2606.30552</em></li>
+<li><strong>Tong Yang</strong>, Jiangpin Liu, Yue Wang, Rong Xiong. “Sparse Waypoint Validity Checking for Self-Entanglement-Free Tethered Path Planning”, <em>arxiv:2308.15931</em></li>
+<li><strong>Tong Yang</strong>, Rong Xiong, Yue Wang. “Efficient Distance-Optimal Tethered Path Planning in Planar Environments: the Workspace Convexity”, <em>arxiv:2208.03969</em> </li>
+<li><strong>Tong Yang</strong>, Li Huang, Yue Wang, Rong Xiong. “Efficient Search of the k Shortest Non-Homotopic Paths by Eliminating Non-k-Optimal Topologies”, <em>arxiv:2207.13604</em> </li>
+</ul>
+
 </div>
 
-<h2 id="opensource">Open‑source</h2>
-<div class="soft-box" aria-label="Open-source projects">
+<h2 id="honors">Honors & Awards</h2>
+<div class="soft-box" aria-label="Honors and awards">
 <ul>
-<li><a href="https://github.com/ZJUTongYang/raystar">Ray*</a> — ROS global path planner for 2D k‑shortest non‑homotopic path planning.</li>
-<li><a href="https://github.com/ZJUTongYang/nuc_ros">nuc_ros</a> — ROS coverage planner for uniform surface coverage on triangle meshes.</li>
-<li><a href="https://github.com/ZJUTongYang/benchmarking_3dcpp">A platform</a> — ROS2 benchmarking platform for 3D coverage planning algorithms.</li>
+<li>2025 — Best Poster Finalist, 5th IROS Workshop on Robotic Manipulation of Deformable Objects (ROMADO), Hangzhou, China.</li>
+<li>2024 — Outstanding Doctoral Graduates, Zhejiang University, Hangzhou, China.</li>
+<li>2023 — Best Poster Finalist, 5th UK Manipulation Workshop, Oxford, UK.</li>
+<li>2020–2022 — Outstanding Graduate Scholarship, Zhejiang University, Hangzhou, China.</li>
+<li>2018 — Academic Scholarship (Doctoral Level), Zhejiang University, Hangzhou, China.</li>
+<li>2017 — Best Design Award, International Competition of IDC Robocon, Hangzhou, China.</li>
+<li>2017 — 3rd Prize, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
+<li>2017 — Champion, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
 </ul>
 </div>
 
@@ -210,17 +224,12 @@ social_image: "images/share.png"
 </ul>
 </div>
 
-<h2 id="honors">Honors & Awards</h2>
-<div class="soft-box" aria-label="Honors and awards">
+<h2 id="opensource">Open‑source</h2>
+<div class="soft-box" aria-label="Open-source projects">
 <ul>
-<li>2025 — Best Poster Finalist, 5th IROS Workshop on Robotic Manipulation of Deformable Objects (ROMADO), Hangzhou, China.</li>
-<li>2024 — Outstanding Doctoral Graduates, Zhejiang University, Hangzhou, China.</li>
-<li>2023 — Best Poster Finalist, 5th UK Manipulation Workshop, Oxford, UK.</li>
-<li>2020–2022 — Outstanding Graduate Scholarship, Zhejiang University, Hangzhou, China.</li>
-<li>2018 — Academic Scholarship (Doctoral Level), Zhejiang University, Hangzhou, China.</li>
-<li>2017 — Best Design Award, International Competition of IDC Robocon, Hangzhou, China.</li>
-<li>2017 — 3rd Prize, RoboCup Small Size League (World Cup), Nagoya, Japan.</li>
-<li>2017 — Champion, RoboCup Small Size League (Iran Open), Tehran, Iran.</li>
+<li><a href="https://github.com/ZJUTongYang/raystar">Ray*</a> — ROS global path planner for 2D k‑shortest non‑homotopic path planning.</li>
+<li><a href="https://github.com/ZJUTongYang/nuc_ros">nuc_ros</a> — ROS coverage planner for uniform surface coverage on triangle meshes.</li>
+<li><a href="https://github.com/ZJUTongYang/benchmarking_3dcpp">A platform</a> — ROS2 benchmarking platform for 3D coverage planning algorithms.</li>
 </ul>
 </div>
 
